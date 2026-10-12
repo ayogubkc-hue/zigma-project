@@ -1,0 +1,110 @@
+
+
+body {font-family: 'Times New Roman', Times, serif;
+background-color: rgba(255, 255, 255, 0.942);}
+
+header .container{display: flex;
+justify-content: space-between;
+text-align: center;
+height: 40px;}
+
+nav {display: flex;
+flex-direction: row;
+gap: 20px;}
+nav a {color: rgb(63, 62, 62);}
+
+.intro {display: flex;
+background-color: rgb(221, 238, 236);
+padding: 30px 30px;
+gap: 40px;}
+
+.intro .container{display: block;
+align-items: center;
+flex: 1;
+gap: 10px;}
+
+.eyebrow {font-size: 12px;
+color: rgb(28, 213, 77);}
+
+.intro button{background-color: rgb(5, 45, 5);
+color: white;}
+
+.code-card {border-radius: 1px solid black;
+max-width: 400px;
+background-color: white;}
+.code-card-header {display: flex;
+justify-content: space-between;
+gap: 60px;
+padding-left: 20px;}
+
+.code-card-header .html {flex: 1;}
+.code-card-header .page {flex: 1;
+color: rgb(51, 103, 51);}
+
+.code-card pre {font-family: sans-serif;
+color: rgb(53, 131, 53);}
+
+.about {display: flex;
+    margin: 20px;
+gap: 10px;}
+
+.about .container{flex: 1;}
+
+.goal-card {flex: 1;
+border-radius: 1px solid black;
+align-items: center;
+text-align: center;
+justify-content: center;
+background-color: rgb(221, 238, 236);}
+
+.goal-label {color: rgb(66, 116, 66);
+text-align: center;}
+
+.learning-card {display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 16PX;
+margin-top: 24px;}
+
+.card {border: 1px solid black;
+border-radius: 6px;
+padding: 20px;}
+
+.icon{background-color: rgb(218, 233, 218);
+border-radius: 1px solid black;}
+
+.p2 {font-size: smaller;
+color: rgb(43, 138, 43);}
+
+.contact {display: flex;
+justify-content: space-between;
+background-color: rgb(221, 238, 236);
+padding-left: 40px;
+padding-top: 30px;
+padding-right: 40px;
+gap: 60px;
+margin: 40px;}
+.contact .container {flex: 1;}
+
+.email-button {flex: 1;
+background-color: white;
+color: rgb(74, 173, 74);
+align-items: center;
+padding: 10px 10px;
+height: 40px;
+font-size: 20px;}
+
+.last {display: flex;
+justify-content: space-between;
+font-size: smaller;
+gap: 50px;
+padding-bottom: 10px;
+padding-top: 10px;
+padding-right: 20px;
+padding-left: 30px;
+height: 30px;}
+
+.last .f1 {flex: 1;}
+.last .f2 {flex: 1;}
+Sent 13m ago
+Compose
+Write to Livinus Asadu
